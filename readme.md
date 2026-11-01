@@ -33,8 +33,8 @@ This repository contains a PyTorch implementation of a 3D Convolutional Neural N
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/ucf101-3dcnn.git
-   cd ucf101-3dcnn
+   git clone https://github.com/your-username/classify_youtube_clips_conv3D.git
+   cd classify_youtube_clips_conv3D
    ```
 
 2. **Create a virtual environment and install dependencies:**
