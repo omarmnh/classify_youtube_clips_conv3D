@@ -159,9 +159,9 @@ def train_model(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Entraînement du modèle 3D CNN sur UCF101")
     parser.add_argument("--manifest", type=str, default="./ucf101_manifest.csv", help="Chemin vers le fichier manifeste CSV")
-    parser.add_argument("--epochs", type=int, default=60, help="Nombre d'époques d'entraînement (min 60)")[cite: 4]
-    parser.add_argument("--batch_size", type=int, default=32, help="Taille des lots")[cite: 4]
-    parser.add_argument("--lr", type=float, default=0.025, help="Taux d'apprentissage initial")[cite: 4]
+    parser.add_argument("--epochs", type=int, default=60, help="Nombre d'époques d'entraînement (min 60)")
+    parser.add_argument("--batch_size", type=int, default=32, help="Taille des lots")
+    parser.add_argument("--lr", type=float, default=0.025, help="Taux d'apprentissage initial")
     parser.add_argument("--ablate_2d", action="store_true", help="Activer le mode ablation 2D (temporal=False)")
 
     args = parser.parse_args()
