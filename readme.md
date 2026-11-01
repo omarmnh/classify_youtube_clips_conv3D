@@ -84,5 +84,3 @@ python evaluate.py
 
 ---
 
-## 📜 License
-Developed for Lab 5: Video Action Classification with a 3D CNN (Big Data & AI).
