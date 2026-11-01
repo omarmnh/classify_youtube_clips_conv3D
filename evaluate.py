@@ -130,8 +130,8 @@ def evaluate_model(manifest_csv: str, checkpoint_path: str, temporal: bool = Tru
     video_acc = np.mean(video_preds == y_true)
 
     print(f"\n--- Résultats d'évaluation ---")
-    print(f"Précision au niveau du clip (1 clip) : {clip_acc * 100:.2f}%")[cite: 4]
-    print(f"Précision au niveau de la vidéo (5 clips) : {video_acc * 100:.2f}%")[cite: 4]
+    print(f"Précision au niveau du clip (1 clip) : {clip_acc * 100:.2f}%")
+    print(f"Précision au niveau de la vidéo (5 clips) : {video_acc * 100:.2f}%")
 
     return y_true, video_preds, test_dataset.classes
 
